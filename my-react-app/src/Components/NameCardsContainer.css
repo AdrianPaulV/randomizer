@@ -1,0 +1,8 @@
+.name-cards-container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 50px;
+}

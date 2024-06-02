@@ -1,0 +1,9 @@
+.name-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  padding: 10px;
+  margin:   0px;
+  width: 50%;
+}

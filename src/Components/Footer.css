@@ -1,0 +1,15 @@
+footer {
+  background-color: #F0F3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: #272838;
+  margin: 30px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400; 
+  letter-spacing: 1px;
+}

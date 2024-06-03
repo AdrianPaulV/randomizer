@@ -1,5 +1,5 @@
 import NameCardsContainer from './NameCardsContainer.jsx';
-import './NameBoard.css';
+import './Main.css';
 import stateArray from '../names.js';
 
 console.log(stateArray);
@@ -8,10 +8,15 @@ export default function NameBoard(props) {
   
   return (
     // onClick will need to refer to an event handlder that calls prop.setRowState
-    <div className='name-board'>
-      <p>FTRI 48</p>
-      <NameCardsContainer />
-    </div>
+    <main>
+      <div className="name-board">
+        <h2>FTRI 48</h2>
+        <NameCardsContainer />
+      </div>
+      <div>
+        
+      </div>
+    </main>
 
   );
 };

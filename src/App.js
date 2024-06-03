@@ -1,13 +1,14 @@
 import './App.css';
-import NameBoard from './Components/NameBoard.jsx';
+import Main from './Components/Main.jsx';
+import Header from './Components/Header.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <NameBoard />
-      
+        <Header />
+        <Main />
+        <Footer />
     </div>
   );
 }
